@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brian Minh Le | AI & Software Engineering Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="top-bar">
+    <div class="nav-inner">
+      <div class="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#news" class="nav-link">Latest News</a>
+        <a href="#publication" class="nav-link">Publications</a>
+        <a href="#honors" class="nav-link">Honors &amp; Awards</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle light/dark mode">
+        <span class="theme-icon sun">☀</span>
+        <span class="theme-icon moon">☽</span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section id="about" class="section about-section">
+      <h1 class="section-title">About</h1>
+      <div class="about-wrapper">
+        <div class="about-content">
+          <p>
+            Hi, I am Minh Le-Anh (Lê Anh Minh in Vietnamese 🇻🇳).
+          </p>
+          <p>
+            Currently I am a third-year undergraduate student at <a href="https://hust.edu.vn/en/" target="_blank" rel="noopener noreferrer">Hanoi University of Science and Technology (HUST)</a>, advised by <a href="https://namcyan.github.io/" target="_blank" rel="noopener noreferrer">Nam Le Hai</a>. I am also a research intern at <a href="https://fptsoftware.com/" target="_blank" rel="noopener noreferrer">FPT Software AI Center</a>, where I am fortunate to be supervised by <a href="https://bdqnghi.github.io/" target="_blank" rel="noopener noreferrer">Dr. Nghi Bui</a>, <a href="https://xuanbachle.github.io/" target="_blank" rel="noopener noreferrer">Prof. Bach Le</a> and <a href="https://personal.utdallas.edu/~tien.n.nguyen/" target="_blank" rel="noopener noreferrer">Prof. Tien N. Nguyen</a>.
+          </p>
+          <p>
+            My research focuses on <strong>Natural Language Processing (NLP)</strong> and <strong>Software Engineering (SE)</strong>. I am passionate about building AI and coding agent systems capable of complex reasoning over software-related tasks such as code understanding, automated program repair and code generation while maintaining reliability and robustness.
+          </p>
+          <p>
+            More broadly, I am interested in developing AI systems that can meaningfully interact and collaborate with humans across multiple domains. I aim to design LLM-based systems that can move beyond isolated automation to become adaptive collaborators that integrate into existing human workflows.
+          </p>
+        </div>
+        <div class="about-sidebar" id="contact">
+          <div class="avatar-wrap">
+            <img src="avatar.jpg" alt="Minh Le-Anh" class="avatar">
+          </div>
+          <div class="name-block">
+            <div class="name-main">Minh Le-Anh</div>
+            <div class="name-alt">Brian Minh Le</div>
+          </div>
+          <div class="contact-block">
+            <a href="mailto:minhla4@fpt.com" class="contact-item">
+              <svg class="contact-icon-email" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              <span class="contact-email">minhla4[@at@]fpt[.dot.]com</span>
+            </a>
+            <a href="mailto:anhminhle.forwork@gmail.com" class="contact-item">
+              <svg class="contact-icon-email" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              <span class="contact-email">anhminhle.forwork[@at@]gmail[.dot.]com</span>
+            </a>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/anhminhle-dsai/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn" title="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+              <a href="https://scholar.google.com/citations?user=rZDi22cAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Google Scholar" title="Google Scholar">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+              </a>
+              <a href="https://github.com/brianminhle" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="news" class="section news-section">
+      <h1 class="section-title">Latest News</h1>
+      <div class="news-list">
+        <div class="news-item">
+          <p><span class="news-date">(January 2026)</span> <span class="news-celebrate">🎉 🎉 🎉</span> Our paper <strong>FAID: Fine-Grained AI-Generated Text Detection Using Multi-Task Auxiliary and Multi-Level Contrastive Learning</strong> has been accepted at <strong>the 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2026)</strong>, in Rabat, Morocco, from March 24 – 29, 2026.</p>
+        </div>
+        <div class="news-item">
+          <p><span class="news-date">(December 2025)</span> <span class="news-celebrate">🎉 🎉 🎉</span> Our paper <strong>Do Not Treat Code as Natural Language: Implications for Repository-Level Code Generation and Beyond</strong> has been accepted at <strong>the ACM International Conference on the Foundations of Software Engineering (FSE 2026)</strong>, in Montreal, Canada, from July 5 – 9, 2026.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="publication" class="section publication-section">
+      <h1 class="section-title">Publications</h1>
+      <div class="publication-list">
+        <article class="publication-item">
+          <div class="publication-header">
+            <span class="publication-venue">FSE 2026</span>
+            <span class="publication-track">Research Track</span>
+          </div>
+          <h3 class="publication-title">Do Not Treat Code as Natural Language: Implications for Repository-Level Code Generation and Beyond</h3>
+          <p class="publication-authors"><span class="author-me">Minh Le-Anh</span>, Huyen Nguyen, An Khanh Tran, Nam Le Hai, Linh Ngo Van, Nghi D.Q. Bui, Bach Le</p>
+          <div class="publication-links-row">
+            <div class="publication-links">
+              <button type="button" class="pub-link abstract-toggle" data-abstract="pub-1">Abstract</button>
+              <a href="https://arxiv.org/pdf/2602.11671" target="_blank" rel="noopener noreferrer" class="pub-link">PDF</a>
+              <a href="https://github.com/solis-team/Hydra" target="_blank" rel="noopener noreferrer" class="pub-link">Code</a>
+            </div>
+            <span class="publication-rank">Rank A*</span>
+          </div>
+          <div id="pub-1" class="abstract-content abstract-collapsed" aria-hidden="true">Large language models for code (CodeLLMs) have demonstrated remarkable success in standalone code completion and generation, sometimes even surpassing human performance, yet their effectiveness diminishes in repository-level settings where cross-file dependencies and structural context are essential. Existing RetrievalAugmented Generation (RAG) approaches often borrow strategies from NLP, relying on chunking-based indexing and similarity-based retrieval. Chunking results in the loss of coherence between code units and overlooks structural relationships, while similarity-driven methods frequently miss functionally relevant dependencies such as helper functions, classes, or global variables. To address these limitations, we present Hydra, a repository-level code generation framework that treats code as structured code rather than natural language. Our approach introduces (i) a structure-aware indexing strategy that represents repositories as hierarchical trees of functions, classes, and variables, preserving code structure and dependencies, (ii) a lightweight dependency-aware retriever (DAR) that explicitly identifies and retrieves the true dependencies required by a target function, and (iii) a hybrid retrieval mechanism that combines DAR with similarity-based retrieval to provide both essential building blocks and practical usage examples. Extensive experiments on the challenging DevEval and RepoExec benchmarks, both requiring function implementation from real-world repositories with complex large repository context, show that Hydra achieves state-of-the-art performance across openand closed-source CodeLLMs. Notably, our method establishes a new state of the art in repository-level code generation, surpassing strongest baseline by over 5% in Pass@1 and even enabling smaller models to match or exceed the performance of much larger ones that rely on existing retrievers.</div>
+        </article>
+        <article class="publication-item">
+          <div class="publication-header">
+            <span class="publication-venue">EACL 2026</span>
+            <span class="publication-track">Oral Presentation</span>
+          </div>
+          <h3 class="publication-title">FAID: Fine-Grained AI-Generated Text Detection Using Multi-Task Auxiliary and Multi-Level Contrastive Learning</h3>
+          <p class="publication-authors">Minh Ngoc Ta, Dong Cao Van*, Duc-Anh Hoang*, <span class="author-me">Minh Le-Anh</span>*, Truong Nguyen*, My Anh Tran Nguyen*, Yuxia Wang, Preslav Nakov, Dinh Viet Sang</p>
+          <div class="publication-links-row">
+            <div class="publication-links">
+              <button type="button" class="pub-link abstract-toggle" data-abstract="pub-2">Abstract</button>
+              <a href="https://arxiv.org/pdf/2505.14271" target="_blank" rel="noopener noreferrer" class="pub-link">PDF</a>
+              <a href="https://github.com/mbzuai-nlp/FAID" target="_blank" rel="noopener noreferrer" class="pub-link">Code</a>
+            </div>
+            <span class="publication-rank">Rank A</span>
+          </div>
+          <div id="pub-2" class="abstract-content abstract-collapsed" aria-hidden="true">The growing collaboration between humans and LLMs in generative tasks has introduced new challenges in distinguishing between human-written, LLM-generated, and human– LLM collaborative texts. In this work, we collect a multilingual, multi-domain, multigenerator dataset FAIDSet. We further introduce a fine-grained detection framework, FAID, to classify text into these three categories and to identify the underlying LLM family of the generator. Unlike existing binary classifiers, FAID is built to capture both authorship and model-specific characteristics. Our method combines multi-level contrastive learning with multi-task auxiliary classification to learn subtle stylistic cues. By modeling LLM families as distinct stylistic entities, we adapt to address distributional shifts without retraining on unseen data. Our results demonstrate that FAID outperforms several baselines, particularly improving generalization accuracy across unseen domains and new LLMs, offering a potential solution to improve transparency and accountability in AI-assisted writing. Our data and code are available at https://github.com/mbzuai-nlp/FAID</div>
+          <p class="publication-item-note">(*) Equal contributor.</p>
+        </article>
+        <article class="publication-item">
+          <div class="publication-header">
+            <span class="publication-venue">arXiv</span>
+            <span class="publication-track"></span>
+          </div>
+          <h3 class="publication-title">CodeWiki: Evaluating AI's Ability to Generate Holistic Documentation for Large-Scale Codebases</h3>
+          <p class="publication-authors">Nguyen Hoang Anh, <span class="author-me">Minh Le-Anh</span>, Bach Le, Nghi D.Q. Bui</p>
+          <div class="publication-links-row">
+            <div class="publication-links">
+              <button type="button" class="pub-link abstract-toggle" data-abstract="pub-3">Abstract</button>
+              <a href="https://arxiv.org/pdf/2510.24428" target="_blank" rel="noopener noreferrer" class="pub-link">PDF</a>
+              <a href="https://github.com/FSoft-AI4Code/CodeWiki" target="_blank" rel="noopener noreferrer" class="pub-link">Code</a>
+            </div>
+          </div>
+          <div id="pub-3" class="abstract-content abstract-collapsed" aria-hidden="true">Comprehensive software documentation is crucial yet costly to produce. Despite recent advances in large language models (LLMs), generating holistic, architecture-aware documentation at the repository level remains challenging due to complex and evolving codebases that exceed LLM context limits. Existing automated methods struggle to capture rich semantic dependencies and architectural structure. We present CodeWiki, a unified framework for automated repository-level documentation across seven mainstream programming languages. CodeWiki combines top-down hierarchical decomposition with a divide-andconquer agent system to preserve architectural context and scale documentation generation, and a bottom-up synthesis that integrates textual descriptions with visual artifacts such as architecture and data-flow diagrams. We also introduce CodeWikiBench, a benchmark with hierarchical rubrics and LLM-based evaluation protocols. Experiments show that CodeWiki achieves a 68.79% quality score with proprietary models, outperforming the closed-source DeepWiki baseline by 4.73%, with especially strong gains on scripting languages. CodeWiki is released as open source to support future research.</div>
+        </article>
+      </div>
+    </section>
+
+    <section id="honors" class="section honors-section">
+      <h1 class="section-title">Honors &amp; Awards</h1>
+      <div class="honors-list">
+        <div class="honor-item">
+          <div class="honor-title">First Prize of Student Creative Ideas Challenge - SOICT</div>
+          <div class="honor-issuer">School of Information and Communication Technology, Hanoi University of Science and Technology · Apr 2024</div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    © 2026 Minh Le-Anh. All rights reserved.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
