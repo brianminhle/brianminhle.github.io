@@ -81,6 +81,9 @@
       <h1 class="section-title">Latest News</h1>
       <div class="news-list">
         <div class="news-item">
+          <p><span class="news-date">(April 2026)</span> <span class="news-celebrate">🎉 🎉 🎉</span> Our paper <strong>CodeWiki: Evaluating AI’s Ability to Generate Holistic Documentation for Large-Scale Codebases</strong> has been accepted at <strong>The 64th Annual Meeting of the Association for Computational Linguistics</strong>, in San Diego, California, from July 2 - 7, 2026.</p>
+        </div>
+        <div class="news-item">
           <p><span class="news-date">(January 2026)</span> <span class="news-celebrate">🎉 🎉 🎉</span> Our paper <strong>FAID: Fine-Grained AI-Generated Text Detection Using Multi-Task Auxiliary and Multi-Level Contrastive Learning</strong> has been accepted at <strong>the 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2026)</strong>, in Rabat, Morocco, from March 24 – 29, 2026.</p>
         </div>
         <div class="news-item">
@@ -111,6 +114,23 @@
         </article>
         <article class="publication-item">
           <div class="publication-header">
+            <span class="publication-venue">ACL 2026</span>
+            <span class="publication-track"></span>
+          </div>
+          <h3 class="publication-title">CodeWiki: Evaluating AI's Ability to Generate Holistic Documentation for Large-Scale Codebases</h3>
+          <p class="publication-authors">Nguyen Hoang Anh, <span class="author-me">Minh Le-Anh</span>, Bach Le, Nghi D.Q. Bui</p>
+          <div class="publication-links-row">
+            <div class="publication-links">
+              <button type="button" class="pub-link abstract-toggle" data-abstract="pub-3">Abstract</button>
+              <a href="https://arxiv.org/pdf/2510.24428" target="_blank" rel="noopener noreferrer" class="pub-link">PDF</a>
+              <a href="https://github.com/FSoft-AI4Code/CodeWiki" target="_blank" rel="noopener noreferrer" class="pub-link">Code</a>
+            </div>
+            <span class="publication-rank">Rank A*</span>
+          </div>
+          <div id="pub-3" class="abstract-content abstract-collapsed" aria-hidden="true">Comprehensive software documentation is crucial yet costly to produce. Despite recent advances in large language models (LLMs), generating holistic, architecture-aware documentation at the repository level remains challenging due to complex and evolving codebases that exceed LLM context limits. Existing automated methods struggle to capture rich semantic dependencies and architectural structure. We present CodeWiki, a unified framework for automated repository-level documentation across seven mainstream programming languages. CodeWiki combines top-down hierarchical decomposition with a divide-andconquer agent system to preserve architectural context and scale documentation generation, and a bottom-up synthesis that integrates textual descriptions with visual artifacts such as architecture and data-flow diagrams. We also introduce CodeWikiBench, a benchmark with hierarchical rubrics and LLM-based evaluation protocols. Experiments show that CodeWiki achieves a 68.79% quality score with proprietary models, outperforming the closed-source DeepWiki baseline by 4.73%, with especially strong gains on scripting languages. CodeWiki is released as open source to support future research.</div>
+        </article>
+        <article class="publication-item">
+          <div class="publication-header">
             <span class="publication-venue">EACL 2026</span>
             <span class="publication-track">Oral Presentation</span>
           </div>
@@ -126,22 +146,6 @@
           </div>
           <div id="pub-2" class="abstract-content abstract-collapsed" aria-hidden="true">The growing collaboration between humans and LLMs in generative tasks has introduced new challenges in distinguishing between human-written, LLM-generated, and human– LLM collaborative texts. In this work, we collect a multilingual, multi-domain, multigenerator dataset FAIDSet. We further introduce a fine-grained detection framework, FAID, to classify text into these three categories and to identify the underlying LLM family of the generator. Unlike existing binary classifiers, FAID is built to capture both authorship and model-specific characteristics. Our method combines multi-level contrastive learning with multi-task auxiliary classification to learn subtle stylistic cues. By modeling LLM families as distinct stylistic entities, we adapt to address distributional shifts without retraining on unseen data. Our results demonstrate that FAID outperforms several baselines, particularly improving generalization accuracy across unseen domains and new LLMs, offering a potential solution to improve transparency and accountability in AI-assisted writing. Our data and code are available at https://github.com/mbzuai-nlp/FAID</div>
           <p class="publication-item-note">(*) Equal contributor.</p>
-        </article>
-        <article class="publication-item">
-          <div class="publication-header">
-            <span class="publication-venue">arXiv</span>
-            <span class="publication-track"></span>
-          </div>
-          <h3 class="publication-title">CodeWiki: Evaluating AI's Ability to Generate Holistic Documentation for Large-Scale Codebases</h3>
-          <p class="publication-authors">Nguyen Hoang Anh, <span class="author-me">Minh Le-Anh</span>, Bach Le, Nghi D.Q. Bui</p>
-          <div class="publication-links-row">
-            <div class="publication-links">
-              <button type="button" class="pub-link abstract-toggle" data-abstract="pub-3">Abstract</button>
-              <a href="https://arxiv.org/pdf/2510.24428" target="_blank" rel="noopener noreferrer" class="pub-link">PDF</a>
-              <a href="https://github.com/FSoft-AI4Code/CodeWiki" target="_blank" rel="noopener noreferrer" class="pub-link">Code</a>
-            </div>
-          </div>
-          <div id="pub-3" class="abstract-content abstract-collapsed" aria-hidden="true">Comprehensive software documentation is crucial yet costly to produce. Despite recent advances in large language models (LLMs), generating holistic, architecture-aware documentation at the repository level remains challenging due to complex and evolving codebases that exceed LLM context limits. Existing automated methods struggle to capture rich semantic dependencies and architectural structure. We present CodeWiki, a unified framework for automated repository-level documentation across seven mainstream programming languages. CodeWiki combines top-down hierarchical decomposition with a divide-andconquer agent system to preserve architectural context and scale documentation generation, and a bottom-up synthesis that integrates textual descriptions with visual artifacts such as architecture and data-flow diagrams. We also introduce CodeWikiBench, a benchmark with hierarchical rubrics and LLM-based evaluation protocols. Experiments show that CodeWiki achieves a 68.79% quality score with proprietary models, outperforming the closed-source DeepWiki baseline by 4.73%, with especially strong gains on scripting languages. CodeWiki is released as open source to support future research.</div>
         </article>
       </div>
     </section>
